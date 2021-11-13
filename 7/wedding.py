@@ -10,6 +10,7 @@ y=int(len(girls))
 
 randomb = []
 randomg = []
+result=[]
 
 while len(randomb) != x or len(randomg) != y:
 
@@ -29,4 +30,10 @@ print('\nAre you ready to see their chance ?! 💏👀\n')
 
 for i in range (0,x):
     print(Fore.RED + randomg[i],Fore.LIGHTYELLOW_EX + '👰  💍  🤵',Fore.GREEN +   randomb[i], Fore.LIGHTYELLOW_EX +  '    get married :)' ,Fore.WHITE)
+
+print('\nresult=[',end='')
+for i in range (0,x):
+    print('(',randomg[i],',',randomb[i],')',end='')
+print(']')   
 print('\n')    
+
