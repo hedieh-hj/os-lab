@@ -21,8 +21,11 @@ def help_func(message):
                  """
                  /start - welcome to my bot
 /game -guess the number 🎮
+/age - calculate your age 
+/voice - convert text to voice 🎼
+/max - find biggest number 
 /argmax - find index of biggest number 
-/qrcode - make Qrcode 
+/qrcode - make Qrcode  
 /help - menu""" )
 
 
