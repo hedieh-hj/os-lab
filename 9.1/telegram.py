@@ -65,11 +65,11 @@ def game_play(m):
 
             elif int(m.text) < random_num:
                 message = bot.send_message(m.chat.id, 'bigger', reply_test=test)
-                bot.register_next_step_handler(msg, game_play)
+                bot.register_next_step_handler(message, game_play)
 
             elif int(m.text) > random_num:
                 message = bot.send_message(m.chat.id, 'lower', reply_test=test)
-                bot.register_next_step_handler(msg, game_play)
+                bot.register_next_step_handler(message, game_play)
 
             elif int(m.text) == random_num:
                 message = bot.send_message(m.chat.id, 'It\'s true. 👏🏻' , reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
