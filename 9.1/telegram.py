@@ -37,48 +37,38 @@ def start_func(message):
 
 #################################################################################
 
-random_num = random.randint(0, 99)
-
-def new_randomNumber():
-    global random_num
-    random_num = random.randint(0, 99)
-
 @bot.message_handler(commands=['game'])
-def game_func(message):
-    text = bot.send_message(message.chat.id, 'I will help you number is between 0 to 100 😉\nGuess the number ?!😈')
-    bot.register_next_step_handler(text, game_play)
+def guse_number_game(message):
+    global number
+    number = random.randint(8, 47)
+    user_guse = bot.send_message(message.chat.id, 'بازی شروع شد حالا یک عدد حدس بزن')
+    bot.register_next_step_handler(user_guse, game)
 
+def game(user_guse):
+    markup = telebot.types.ReplyKeyboardMarkup(row_width=1)
+    itembtn = telebot.types.KeyboardButton('New Game')
+    markup.add(itembtn)
 
-
-def game_play(text):
-    test = telebot.types.ReplyKeyboardMarkup(row_width=1)
-    btn1 = telebot.types.KeyboardButton('New Game')
-    test.add(btn1)
-    if not m.text.startswith("/"):
-        try:
-            if text.text == 'New Game':
-                new_randomNumber()
-                bot.send_message(text.chat.id, 'NEW Game begin. Guess new number:',
-                                 reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
-
-                bot.register_next_step_handler_by_chat_id(text.chat.id, game_play)
-
-            elif int(text.text) < random_num:
-                text = bot.send_message(text.chat.id, 'bigger', reply_test=test)
-                bot.register_next_step_handler(text, game_play)
-
-            elif int(text.text) > random_num:
-                text = bot.send_message(text.chat.id, 'lower', reply_test=test)
-                bot.register_next_step_handler(text, game_play)
-
-            elif int(text.text) == random_num:
-                text = bot.send_message(text.chat.id, 'It\'s true. 👏🏻' , reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
-
-        except ValueError:
-            bot.send_message(text.chat.id, 'you write a wrong input , try again!',
-                             reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
+    global number
+    if user_guse.text == "New Game":
+        user_guse = bot.send_message(user_guse.chat.id, 'بازی دوباره شروع شد پس دوباره یک عدد حدس بزن',
+                                     reply_markup=markup)
+        number = random.randint(8, 47)
+        bot.register_next_step_handler(user_guse, game)
     else:
-        bot.reply_to(text, 'I expect a number not a command. \nstart again -> write command !')
+        try:
+            if int(user_guse.text) < number:
+                user_guse = bot.send_message(user_guse.chat.id, 'برو بالا', reply_markup=markup)
+                bot.register_next_step_handler(user_guse, game)
+            elif int(user_guse.text) > number:
+                user_guse = bot.send_message(user_guse.chat.id, 'برو پایین', reply_markup=markup)
+                bot.register_next_step_handler(user_guse, game)
+            else:
+                markup = telebot.types.ReplyKeyboardRemove(selective=True)
+                bot.send_message(user_guse.chat.id, 'برنده شدی بازی تمام شد!', reply_markup=markup)
+        except:
+            user_guse = bot.send_message(user_guse.chat.id, 'فقط عدد صحیح وارد کن', reply_markup=markup)
+            bot.register_next_step_handler(user_guse, game)
         
 #################################################################################
 
