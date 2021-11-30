@@ -37,48 +37,41 @@ def start_func(message):
 
 #################################################################################
 
-random_num = random.randint(0, 99)
-
-def new_randomNumber():
-    global random_num
-    random_num = random.randint(0, 99)
-
 @bot.message_handler(commands=['game'])
-def game_func(message):
-    text = bot.send_message(message.chat.id, 'I will help you number is between 0 to 100 😉\nGuess the number ?!😈')
-    bot.register_next_step_handler(text, game_play)
+def game_func(m):
+    msg = bot.send_message(m.chat.id, 'lets play!\nTo make it easier number is between 0-100\nGuess the number!')
+    bot.register_next_step_handler(msg, gm1)
 
 
-
-def game_play(m):
-    test = telebot.types.ReplyKeyboardMarkup(row_width=1)
-    btn1 = telebot.types.KeyboardButton('New Game')
-    test.add(btn1)
+def gm1(m):
+    markup = telebot.types.ReplyKeyboardMarkup(row_width=1)
+    btn1 = telebot.types.KeyboardButton('NEW Game')
+    markup.add(btn1)
     if not m.text.startswith("/"):
         try:
-            if m.text == 'New Game':
+            if m.text == 'NEW Game':
                 new_randomNumber()
                 bot.send_message(m.chat.id, 'NEW Game begin. Guess new number:',
-                                 reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
-
-                bot.register_next_step_handler_by_chat_id(m.chat.id, game_play)
-
-            elif int(m.text) < random_num:
-                message = bot.send_message(m.chat.id, 'bigger', reply_test=test)
-                bot.register_next_step_handler(msg, game_play)
-
-            elif int(m.text) > random_num:
-                message = bot.send_message(m.chat.id, 'lower', reply_test=test)
-                bot.register_next_step_handler(msg, game_play)
-
-            elif int(m.text) == random_num:
-                message = bot.send_message(m.chat.id, 'It\'s true. 👏🏻' , reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
-
+                                 reply_markup=telebot.types.ReplyKeyboardRemove(selective=True))
+                bot.register_next_step_handler_by_chat_id(m.chat.id, gm1)
+            elif int(m.text) < RANDOM_NUMBER:
+                msg = bot.send_message(m.chat.id, 'bigger', reply_markup=markup)
+                bot.register_next_step_handler(msg, gm1)
+            elif int(m.text) > RANDOM_NUMBER:
+                msg = bot.send_message(m.chat.id, 'lower', reply_markup=markup)
+                bot.register_next_step_handler(msg, gm1)
+            elif int(m.text) == RANDOM_NUMBER:
+                msg = bot.send_message(m.chat.id, 'Thats right. ^^',
+                                       reply_markup=telebot.types.ReplyKeyboardRemove(selective=True))
         except ValueError:
-            bot.send_message(m.chat.id, 'you write a wrong input , try again!',
-                             reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
+            bot.send_message(m.chat.id, 'something is wrong with your input. give me a number 😢',
+                             reply_markup=telebot.types.ReplyKeyboardRemove(selective=True))
+        except:
+            bot.send_message(m.chat.id, 'something is wrong. Call my dad 😭\n@mrbni Error code:gm1',
+                             reply_markup=telebot.types.ReplyKeyboardRemove(selective=True))
     else:
-        bot.reply_to(m, 'I expect a number not a command. \nstart again -> write command !')
+        bot.reply_to(m, 'I expect a number not a command. 🤔')
+        bot.send_message(m.chat.id, 'now tell me your command.')
         
 #################################################################################
 
