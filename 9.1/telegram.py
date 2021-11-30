@@ -51,7 +51,7 @@ def game_func(message):
 
 
 def game_play(m):
-    test = telebot.types.ReplyKeyboardMarkup(None)
+    test = telebot.types.ReplyKeyboardMarkup(row_width=1)
     btn1 = telebot.types.KeyboardButton('New Game')
     test.add(btn1)
     if not m.text.startswith("/"):
@@ -64,15 +64,15 @@ def game_play(m):
                 bot.register_next_step_handler_by_chat_id(m.chat.id, game_play)
 
             elif int(m.text) < random_num:
-                msg = bot.send_message(m.chat.id, 'bigger', reply_test=test)
+                message = bot.send_message(m.chat.id, 'bigger', reply_test=test)
                 bot.register_next_step_handler(msg, game_play)
 
             elif int(m.text) > random_num:
-                msg = bot.send_message(m.chat.id, 'lower', reply_test=test)
+                message = bot.send_message(m.chat.id, 'lower', reply_test=test)
                 bot.register_next_step_handler(msg, game_play)
 
             elif int(m.text) == random_num:
-                msg = bot.send_message(m.chat.id, 'It\'s true. 👏🏻' , reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
+                message = bot.send_message(m.chat.id, 'It\'s true. 👏🏻' , reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
 
         except ValueError:
             bot.send_message(m.chat.id, 'you write a wrong input , try again!',
@@ -185,7 +185,7 @@ def voice_play(m):
         except:
             bot.send_message(m.chat.id, 'you write a illegal input')
     else:
-        bot.reply_to(m, 'I expect a number not a command. \nstart again -> write command !')
+        bot.reply_to(m, 'I expect a text not a command. \nstart again -> write command !')
         
 #################################################################################
 
@@ -241,7 +241,7 @@ def qr_play(m):
         except:
             bot.send_message(m.chat.id, 'you write a illegal input')
     else:
-        bot.reply_to(m, 'I expect a number not a command. \nstart again -> write command !')
+        bot.reply_to(m, 'I expect a text not a command. \nstart again -> write command !')
         
 
 
