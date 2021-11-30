@@ -9,7 +9,7 @@ import gtts
 
 #https://github.com/eternnoir/pyTelegramBotAPI#readme = help
 # aval bot dar botfather ba new misazim = Hedi_gift_Bot
-bot = telebot.TeleBot("dont try") #token
+bot = telebot.TeleBot("2103138353:AAEqFNS-wzGYKoh3pLn_hoafLu_eIxCQYog") #token
 
 
 #################################################################################
