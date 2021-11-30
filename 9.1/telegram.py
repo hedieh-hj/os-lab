@@ -50,35 +50,35 @@ def game_func(message):
 
 
 
-def game_play(m):
+def game_play(text):
     test = telebot.types.ReplyKeyboardMarkup(row_width=1)
     btn1 = telebot.types.KeyboardButton('New Game')
     test.add(btn1)
     if not m.text.startswith("/"):
         try:
-            if m.text == 'New Game':
+            if text.text == 'New Game':
                 new_randomNumber()
-                bot.send_message(m.chat.id, 'NEW Game begin. Guess new number:',
+                bot.send_message(text.chat.id, 'NEW Game begin. Guess new number:',
                                  reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
 
-                bot.register_next_step_handler_by_chat_id(m.chat.id, game_play)
+                bot.register_next_step_handler_by_chat_id(text.chat.id, game_play)
 
-            elif int(m.text) < random_num:
-                message = bot.send_message(m.chat.id, 'bigger', reply_test=test)
-                bot.register_next_step_handler(message, game_play)
+            elif int(text.text) < random_num:
+                text = bot.send_message(text.chat.id, 'bigger', reply_test=test)
+                bot.register_next_step_handler(text, game_play)
 
-            elif int(m.text) > random_num:
-                message = bot.send_message(m.chat.id, 'lower', reply_test=test)
-                bot.register_next_step_handler(message, game_play)
+            elif int(text.text) > random_num:
+                text = bot.send_message(text.chat.id, 'lower', reply_test=test)
+                bot.register_next_step_handler(text, game_play)
 
-            elif int(m.text) == random_num:
-                message = bot.send_message(m.chat.id, 'It\'s true. 👏🏻' , reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
+            elif int(text.text) == random_num:
+                text = bot.send_message(text.chat.id, 'It\'s true. 👏🏻' , reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
 
         except ValueError:
-            bot.send_message(m.chat.id, 'you write a wrong input , try again!',
+            bot.send_message(text.chat.id, 'you write a wrong input , try again!',
                              reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
     else:
-        bot.reply_to(m, 'I expect a number not a command. \nstart again -> write command !')
+        bot.reply_to(text, 'I expect a number not a command. \nstart again -> write command !')
         
 #################################################################################
 
