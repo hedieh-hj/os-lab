@@ -2,3 +2,4 @@ pyTelegramBotAPI
 qrcode
 gTTS
 random2
+qrcode[pil]
