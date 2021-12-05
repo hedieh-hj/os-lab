@@ -8,7 +8,7 @@ import gtts
 
 
 #https://github.com/eternnoir/pyTelegramBotAPI#readme = help
-# aval bot dar botfather ba new misazim = Hedi_gift_Bot
+# id bot = Hedi_gift_Bot
 bot = telebot.TeleBot("2103138353:AAEqFNS-wzGYKoh3pLn_hoafLu_eIxCQYog") #token
 
 
@@ -21,8 +21,11 @@ def help_func(message):
                  """
                  /start - welcome to my bot
 /game -guess the number 🎮
+/age - calculate your age 
+/voice - convert text to voice 🎼
+/max - find biggest number 
 /argmax - find index of biggest number 
-/qrcode - make Qrcode 
+/qrcode - make Qrcode  
 /help - menu""" )
 
 
@@ -34,48 +37,40 @@ def start_func(message):
 
 #################################################################################
 
-random_num = random.randint(0, 99)
-
-def new_randomNumber():
-    global random_num
-    random_num = random.randint(0, 99)
-
 @bot.message_handler(commands=['game'])
-def game_func(message):
-    text = bot.send_message(message.chat.id, 'I will help you number is between 0 to 100 😉\nGuess the number ?!😈')
-    bot.register_next_step_handler(text, game_play)
+def guse_number_game(message):
+    global number
+    number = random.randint(0, 99)
+    mm = bot.send_message(message.chat.id, 'I will help you number is between 0 to 100 😉\nGuess the number ?!😈')
+    bot.register_next_step_handler(mm, game_play)
 
+def game_play(mm):
+    markup = telebot.types.ReplyKeyboardMarkup(row_width=1)
+    bottun = telebot.types.KeyboardButton('New Game')
+    
+    markup.add(bottun)
 
-
-def game_play(m):
-    test = telebot.types.ReplyKeyboardMarkup(None)
-    btn1 = telebot.types.KeyboardButton('New Game')
-    test.add(btn1)
-    if not m.text.startswith("/"):
-        try:
-            if m.text == 'New Game':
-                new_randomNumber()
-                bot.send_message(m.chat.id, 'NEW Game begin. Guess new number:',
-                                 reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
-
-                bot.register_next_step_handler_by_chat_id(m.chat.id, game_play)
-
-            elif int(m.text) < random_num:
-                msg = bot.send_message(m.chat.id, 'bigger', reply_test=test)
-                bot.register_next_step_handler(msg, game_play)
-
-            elif int(m.text) > random_num:
-                msg = bot.send_message(m.chat.id, 'lower', reply_test=test)
-                bot.register_next_step_handler(msg, game_play)
-
-            elif int(m.text) == random_num:
-                msg = bot.send_message(m.chat.id, 'It\'s true. 👏🏻' , reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
-
-        except ValueError:
-            bot.send_message(m.chat.id, 'you write a wrong input , try again!',
-                             reply_test=telebot.types.ReplyKeyboardRemove(selective=True))
+    global number
+    if mm.text == "New Game":
+        mm = bot.send_message(user_guse.chat.id,'NEW Game begin. Guess new number:',reply_markup=markup)
+                                     
+        number = random.randint(0, 99)
+        
+        bot.register_next_step_handler(mm, game_play)
     else:
-        bot.reply_to(m, 'I expect a number not a command. \nstart again -> write command !')
+        try:
+            if int(mm.text) < number:
+                mm = bot.send_message(mm.chat.id, 'Bigger ', reply_markup=markup)
+                bot.register_next_step_handler(mm, game_play)
+            elif int(mm.text) > number:
+                mm = bot.send_message(mm.chat.id, 'Lower', reply_markup=markup)
+                bot.register_next_step_handler(mm, game_play)
+            else:
+                markup = telebot.types.ReplyKeyboardRemove(selective=True)
+                bot.send_message(mm.chat.id, 'that\'s right , congratulation', reply_markup=markup)
+        except:
+            mm = bot.send_message(mm.chat.id, 'you write a wrong input , try again!' , reply_markup=markup)
+            bot.register_next_step_handler(mm, game_play)
         
 #################################################################################
 
@@ -182,7 +177,7 @@ def voice_play(m):
         except:
             bot.send_message(m.chat.id, 'you write a illegal input')
     else:
-        bot.reply_to(m, 'I expect a number not a command. \nstart again -> write command !')
+        bot.reply_to(m, 'I expect a text not a command. \nstart again -> write command !')
         
 #################################################################################
 
@@ -238,7 +233,7 @@ def qr_play(m):
         except:
             bot.send_message(m.chat.id, 'you write a illegal input')
     else:
-        bot.reply_to(m, 'I expect a number not a command. \nstart again -> write command !')
+        bot.reply_to(m, 'I expect a text not a command. \nstart again -> write command !')
         
 
 
