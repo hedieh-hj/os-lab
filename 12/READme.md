@@ -13,4 +13,4 @@
       <br>
       <img src="https://github.com/hedieh-hj/os-lab/blob/master/12/output.png?raw=true" width="350" title="summery of output">
 
-    </details>
+  </details>
