@@ -32,10 +32,7 @@ class snake(arcade.Sprite) :  #mojodiat hay dakhel game
       
 
     def draw(self):
-        # arcade.draw_rectangle_filled(self.center_x,self.center_y,16,16,self.color)
-        # for i in self.body:
-        #     arcade.draw_rectangle_filled(i[0],i[1],16,16,self.color)
-
+        
         for index, item in enumerate(self.body):  
             arcade.draw_circle_filled(item[0], item[1], self.r, self.color) #daqiqn dayere nemishe chon speed kam dadidm ->
                 
