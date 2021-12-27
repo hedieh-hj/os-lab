@@ -153,9 +153,9 @@ class Game(arcade.Window):
             self.me.change_x = 1
         elif key == arcade.key.LEFT:
             self.me.change_x = -1
-        elif key == arcade.key.C:
+        elif key == arcade.key.M:
             self.me.change_angle = 1
-        elif key == arcade.key.V:
+        elif key == arcade.key.N:
             self.me.change_angle = -1
         elif key == arcade.key.SPACE:
             self.me.fire()
