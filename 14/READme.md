@@ -7,6 +7,7 @@
     - You can multiple numbers together.
     - You can calculate factorial.
     - You can calculate precentage.
+    - You can calculate radical.
     - You can calculate cos , sin , tan , cot.
     - You can calculate logarithm.
 
