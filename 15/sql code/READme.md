@@ -1,4 +1,4 @@
-- **SQL** 
+- **SQL**
 
   - This is a database which make with sql  :
   - there is 2 tables :
