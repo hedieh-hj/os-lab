@@ -1,4 +1,4 @@
-- **SQL : ** 
+- **SQL** 
 
   - This is a database which make with sql  :
   - there is 2 tables :
@@ -13,7 +13,7 @@
   <details>
       <summary>output select command</summary>
       <br>
-      <img src="" title="summery of output">
+      <img src="https://github.com/hedieh-hj/os-lab/blob/master/15/sql%20code/select%20command.png?raw=true" title="summery of output">
 
   </details>
 
