@@ -1,7 +1,8 @@
 - **certificate and python**
 
-  - you can see the certificate in picture that is under this text :
+  - you can see the certificate of SQL from picture that is under this text and link which wrote:
   - link : https://www.sololearn.com/certificates/course/en/16960948/1060/landscape/png
+  
    <details>
       <summary>certificate sql</summary>
       <br>
