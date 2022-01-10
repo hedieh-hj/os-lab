@@ -1,7 +1,8 @@
 - **certificate and python**
 
   - you can see the certificate in picture that is under this text :
-  -  <details>
+  - link : https://www.sololearn.com/certificates/course/en/16960948/1060/landscape/png
+   <details>
       <summary>certificate sql</summary>
       <br>
       <img src="https://github.com/hedieh-hj/os-lab/blob/master/15/cert-SQL.png?raw=true" title="summery of output">
