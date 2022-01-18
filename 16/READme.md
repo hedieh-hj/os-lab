@@ -22,7 +22,7 @@
   </details>
   
   
-    <details>
+  <details>
       <summary>output see add new contact</summary>
       <br>
       <img src="https://github.com/hedieh-hj/os-lab/blob/master/16/pic/add.png?raw=true" width="350"  title="add new contact">
@@ -30,7 +30,7 @@
   </details>
   
   
-      <details>
+  <details>
       <summary>output darkmode</summary>
       <br>
       <img src="https://github.com/hedieh-hj/os-lab/blob/master/16/pic/list%20(darkmode).png?raw=true" width="350"  title="dark mode">
