@@ -1,0 +1,593 @@
+('C:\\Users\\Emperatoor co\\Desktop\\New folder (2)\\dist\\main.exe',
+ True,
+ False,
+ False,
+ 'C:\\Users\\Emperatoor '
+ 'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
+ None,
+ False,
+ False,
+ '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><assemblyIdentity type="win32" name="main" processorArchitecture="amd64" version="1.0.0.0"/><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"/></requestedPrivileges></security></trustInfo><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" language="*" processorArchitecture="*" version="6.0.0.0" publicKeyToken="6595b64144ccf1df"/><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"/></dependentAssembly></dependency><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"><application><supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/><supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/><supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/><supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/><supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/></application></compatibility><application xmlns="urn:schemas-microsoft-com:asm.v3"><windowsSettings><longPathAware xmlns="http://schemas.microsoft.com/SMI/2016/WindowsSettings">true</longPathAware></windowsSettings></application></assembly>',
+ True,
+ True,
+ None,
+ None,
+ None,
+ 'C:\\Users\\Emperatoor co\\Desktop\\New folder (2)\\build\\main\\main.pkg',
+ [('PYZ-00.pyz',
+   'C:\\Users\\Emperatoor co\\Desktop\\New folder (2)\\build\\main\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Emperatoor co\\Desktop\\New folder '
+   '(2)\\build\\main\\localpycos\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyimod04_ctypes',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\loader\\pyimod04_ctypes.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyside6',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyside6.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_win32api',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_win32api.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\Emperatoor co\\Desktop\\New folder (2)\\main.py',
+   'PYSOURCE'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program Files\\Python39\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python39.dll', 'C:\\Program Files\\Python39\\python39.dll', 'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtiff.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qicns.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('opengl32sw.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\opengl32sw.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qico.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\styles\\qwindowsvistastyle.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\styles\\qwindowsvistastyle.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qminimal.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtga.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwebp.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qwindows.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qgif.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'BINARY'),
+  ('select', 'C:\\Program Files\\Python39\\DLLs\\select.pyd', 'EXTENSION'),
+  ('unicodedata',
+   'C:\\Program Files\\Python39\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_socket', 'C:\\Program Files\\Python39\\DLLs\\_socket.pyd', 'EXTENSION'),
+  ('_decimal', 'C:\\Program Files\\Python39\\DLLs\\_decimal.pyd', 'EXTENSION'),
+  ('_ssl', 'C:\\Program Files\\Python39\\DLLs\\_ssl.pyd', 'EXTENSION'),
+  ('_asyncio', 'C:\\Program Files\\Python39\\DLLs\\_asyncio.pyd', 'EXTENSION'),
+  ('_queue', 'C:\\Program Files\\Python39\\DLLs\\_queue.pyd', 'EXTENSION'),
+  ('_ctypes', 'C:\\Program Files\\Python39\\DLLs\\_ctypes.pyd', 'EXTENSION'),
+  ('_multiprocessing',
+   'C:\\Program Files\\Python39\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat', 'C:\\Program Files\\Python39\\DLLs\\pyexpat.pyd', 'EXTENSION'),
+  ('_hashlib', 'C:\\Program Files\\Python39\\DLLs\\_hashlib.pyd', 'EXTENSION'),
+  ('_lzma', 'C:\\Program Files\\Python39\\DLLs\\_lzma.pyd', 'EXTENSION'),
+  ('_bz2', 'C:\\Program Files\\Python39\\DLLs\\_bz2.pyd', 'EXTENSION'),
+  ('_win32sysloader',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\win32\\_win32sysloader.pyd',
+   'EXTENSION'),
+  ('markupsafe._speedups',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\markupsafe\\_speedups.cp39-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32api',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('_uuid', 'C:\\Program Files\\Python39\\DLLs\\_uuid.pyd', 'EXTENSION'),
+  ('PySide6.QtCore',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\QtCore.pyd',
+   'EXTENSION'),
+  ('PySide6.QtPrintSupport',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\QtPrintSupport.pyd',
+   'EXTENSION'),
+  ('PySide6.QtGui',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\QtGui.pyd',
+   'EXTENSION'),
+  ('PySide6.QtSvg',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\QtSvg.pyd',
+   'EXTENSION'),
+  ('PySide6.QtNetwork',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\QtNetwork.pyd',
+   'EXTENSION'),
+  ('shiboken6.Shiboken',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\shiboken6\\Shiboken.pyd',
+   'EXTENSION'),
+  ('PySide6.QtUiTools',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\QtUiTools.pyd',
+   'EXTENSION'),
+  ('PySide6.QtWidgets',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('PySide6.QtDataVisualization',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\QtDataVisualization.pyd',
+   'EXTENSION'),
+  ('_sqlite3', 'C:\\Program Files\\Python39\\DLLs\\_sqlite3.pyd', 'EXTENSION'),
+  ('_overlapped',
+   'C:\\Program Files\\Python39\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('Qt6Core.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6Core.dll',
+   'BINARY'),
+  ('Qt6Gui.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6Gui.dll',
+   'BINARY'),
+  ('Qt6Network.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6Network.dll',
+   'BINARY'),
+  ('Qt6VirtualKeyboard.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'BINARY'),
+  ('Qt6Qml.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6Qml.dll',
+   'BINARY'),
+  ('Qt6Svg.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6Svg.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program Files\\Python39\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('Qt6Widgets.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6Widgets.dll',
+   'BINARY'),
+  ('MSVCP140.dll', 'C:\\Windows\\system32\\MSVCP140.dll', 'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Program Files\\Python39\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Program Files\\Python39\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll', 'C:\\Program Files\\Python39\\DLLs\\libffi-7.dll', 'BINARY'),
+  ('python3.dll', 'C:\\Program Files\\Python39\\python3.dll', 'BINARY'),
+  ('pyside6.abi3.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\pyside6.abi3.dll',
+   'BINARY'),
+  ('Qt6PrintSupport.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6PrintSupport.dll',
+   'BINARY'),
+  ('MSVCP140_2.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\MSVCP140_2.dll',
+   'BINARY'),
+  ('shiboken6.abi3.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\shiboken6\\shiboken6.abi3.dll',
+   'BINARY'),
+  ('Qt6UiTools.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6UiTools.dll',
+   'BINARY'),
+  ('Qt6DataVisualization.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6DataVisualization.dll',
+   'BINARY'),
+  ('sqlite3.dll', 'C:\\Program Files\\Python39\\DLLs\\sqlite3.dll', 'BINARY'),
+  ('MSVCP140_1.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\MSVCP140_1.dll',
+   'BINARY'),
+  ('Qt6Quick.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6Quick.dll',
+   'BINARY'),
+  ('Qt6OpenGLWidgets.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6OpenGLWidgets.dll',
+   'BINARY'),
+  ('Qt6OpenGL.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6OpenGL.dll',
+   'BINARY'),
+  ('Qt6QmlModels.dll',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\Qt6QmlModels.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'C:\\Users\\Emperatoor co\\Desktop\\New folder '
+   '(2)\\build\\main\\base_library.zip',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_tr.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_uk.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ca.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fr.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_he.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sk.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hu.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fi.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_it.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_en.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pl.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PySide6\\qt.conf',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\qt.conf',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_bg.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fa.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nn.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ja.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nl.qm',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\WHEEL',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\pyinstaller-4.7.dist-info\\WHEEL',
+   'DATA'),
+  ('wheel-0.37.0.dist-info\\entry_points.txt',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\wheel-0.37.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('jsonschema-4.2.1.dist-info\\top_level.txt',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\jsonschema-4.2.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('wheel-0.37.0.dist-info\\LICENSE.txt',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\wheel-0.37.0.dist-info\\LICENSE.txt',
+   'DATA'),
+  ('wheel-0.37.0.dist-info\\RECORD',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\wheel-0.37.0.dist-info\\RECORD',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\zip-safe',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\altgraph-0.17.2.dist-info\\zip-safe',
+   'DATA'),
+  ('wheel-0.37.0.dist-info\\top_level.txt',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\wheel-0.37.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools-57.4.0.dist-info\\LICENSE',
+   'c:\\program '
+   'files\\python39\\lib\\site-packages\\setuptools-57.4.0.dist-info\\LICENSE',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\INSTALLER',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\altgraph-0.17.2.dist-info\\INSTALLER',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\WHEEL',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\altgraph-0.17.2.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools-57.4.0.dist-info\\METADATA',
+   'c:\\program '
+   'files\\python39\\lib\\site-packages\\setuptools-57.4.0.dist-info\\METADATA',
+   'DATA'),
+  ('wheel-0.37.0.dist-info\\METADATA',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\wheel-0.37.0.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools-57.4.0.dist-info\\INSTALLER',
+   'c:\\program '
+   'files\\python39\\lib\\site-packages\\setuptools-57.4.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\top_level.txt',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\pyinstaller-4.7.dist-info\\top_level.txt',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\RECORD',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\pyinstaller-4.7.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools-57.4.0.dist-info\\WHEEL',
+   'c:\\program '
+   'files\\python39\\lib\\site-packages\\setuptools-57.4.0.dist-info\\WHEEL',
+   'DATA'),
+  ('wheel-0.37.0.dist-info\\WHEEL',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\wheel-0.37.0.dist-info\\WHEEL',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\RECORD',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\altgraph-0.17.2.dist-info\\RECORD',
+   'DATA'),
+  ('jsonschema-4.2.1.dist-info\\entry_points.txt',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\jsonschema-4.2.1.dist-info\\entry_points.txt',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\LICENSE',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\altgraph-0.17.2.dist-info\\LICENSE',
+   'DATA'),
+  ('jsonschema-4.2.1.dist-info\\RECORD',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\jsonschema-4.2.1.dist-info\\RECORD',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\INSTALLER',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\pyinstaller-4.7.dist-info\\INSTALLER',
+   'DATA'),
+  ('jsonschema-4.2.1.dist-info\\INSTALLER',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\jsonschema-4.2.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('jsonschema-4.2.1.dist-info\\METADATA',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\jsonschema-4.2.1.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools-57.4.0.dist-info\\RECORD',
+   'c:\\program '
+   'files\\python39\\lib\\site-packages\\setuptools-57.4.0.dist-info\\RECORD',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\REQUESTED',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\pyinstaller-4.7.dist-info\\REQUESTED',
+   'DATA'),
+  ('jsonschema-4.2.1.dist-info\\COPYING',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\jsonschema-4.2.1.dist-info\\COPYING',
+   'DATA'),
+  ('setuptools-57.4.0.dist-info\\REQUESTED',
+   'c:\\program '
+   'files\\python39\\lib\\site-packages\\setuptools-57.4.0.dist-info\\REQUESTED',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\top_level.txt',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\altgraph-0.17.2.dist-info\\top_level.txt',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\COPYING.txt',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\pyinstaller-4.7.dist-info\\COPYING.txt',
+   'DATA'),
+  ('setuptools-57.4.0.dist-info\\entry_points.txt',
+   'c:\\program '
+   'files\\python39\\lib\\site-packages\\setuptools-57.4.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('setuptools-57.4.0.dist-info\\top_level.txt',
+   'c:\\program '
+   'files\\python39\\lib\\site-packages\\setuptools-57.4.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('wheel-0.37.0.dist-info\\INSTALLER',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\wheel-0.37.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\METADATA',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\pyinstaller-4.7.dist-info\\METADATA',
+   'DATA'),
+  ('altgraph-0.17.2.dist-info\\METADATA',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\altgraph-0.17.2.dist-info\\METADATA',
+   'DATA'),
+  ('jsonschema-4.2.1.dist-info\\WHEEL',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\jsonschema-4.2.1.dist-info\\WHEEL',
+   'DATA'),
+  ('pyinstaller-4.7.dist-info\\entry_points.txt',
+   'c:\\users\\emperatoor '
+   'co\\appdata\\roaming\\python\\python39\\site-packages\\pyinstaller-4.7.dist-info\\entry_points.txt',
+   'DATA')],
+ [],
+ False,
+ False,
+ 1642507147,
+ [('run.exe',
+   'C:\\Users\\Emperatoor '
+   'co\\AppData\\Roaming\\Python\\Python39\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
+   'EXECUTABLE')])
